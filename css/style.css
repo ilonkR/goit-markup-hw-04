@@ -225,6 +225,9 @@ p{
     width:calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
+.our-team-item:hover{
+    box-shadow: 0px 2px 1px 0px;
+}
 .our-team-list{
     display: flex;
     gap: 24px;
@@ -271,6 +274,10 @@ p{
     width:calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
 
+}
+.our-portfolio-list:hover,
+.our-portfolio-list:focus{
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 .our-portfolio-title {
     font-family: Roboto;
