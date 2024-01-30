@@ -75,6 +75,7 @@ p{
 .first-header-link{
    position: relative;
    color: #404BBF;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .first-header-link::after{
     content: "";
@@ -84,7 +85,7 @@ p{
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 .header-menu-link:hover,
 .header-menu-link:focus{
@@ -109,13 +110,14 @@ p{
     gap: 40px;
 }
 .second-header-adress{
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress-item{
     color: #434455 ;
     font-style: normal;
     text-decoration: none;
     padding: 24px 0;
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1)  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-item:hover,
@@ -272,7 +274,8 @@ p{
     text-align: center;
 }
 .our-team-container{
-    padding: 32px 0;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 .our-team-icon{
     fill: #f4f4fd;
@@ -412,6 +415,7 @@ p{
 }
 .social-media-footer-list{
     display: flex;
+    gap:16px;
 }
 .social-media-footer-link:hover,
 .social-media-footer-link:focus{
