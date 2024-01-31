@@ -71,6 +71,7 @@ p{
    text-decoration: none;
    padding: 24px 0;
    display: block;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .first-header-link{
    position: relative;
@@ -117,7 +118,7 @@ p{
     font-style: normal;
     text-decoration: none;
     padding: 24px 0;
-    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1)  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-item:hover,
@@ -292,6 +293,7 @@ p{
 .social-media-ourteam-item {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-ourteam-link{
     width: 100%;
@@ -301,6 +303,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-ourteam-link:hover,
 .social-media-ourteam-link:focus{
@@ -412,6 +415,7 @@ p{
     display:flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-footer-list{
     display: flex;
