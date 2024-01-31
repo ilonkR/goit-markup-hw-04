@@ -118,7 +118,7 @@ p{
     font-style: normal;
     text-decoration: none;
     padding: 24px 0;
-    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-item:hover,
@@ -212,6 +212,9 @@ p{
 .features-list-item{
     width: calc((100% - 72px) / 4);
 }
+.features-list-item:hover{
+    transform: translateY(0%);
+}
 .features-subtitle { 
     color: #2e2f42;   
     font-family: Roboto;
@@ -227,6 +230,7 @@ p{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    background-color: #4d5ae5;
 }
 /* OUR-TEAM */
 .our-team {
